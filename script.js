@@ -1,4 +1,4 @@
-document.querySelector('#push').onclick = function(){
+/*document.querySelector('#push').onclick = function(){
     if(document.querySelector('#newtask input').value.length == 0){
         alert("Porfavor Ingresa una Tarea")
     }
@@ -35,8 +35,8 @@ document.querySelector('#push').onclick = function(){
         document.querySelector("#newtask input").value = "";
     }
 }
-
-/*class Manejador {
+*/
+class Manejador {
     constructor() {
       this.cajaDeTexto = document.querySelector('#newtask input');
       this.push = document.querySelector('#push');
@@ -86,4 +86,4 @@ document.querySelector('#push').onclick = function(){
     }
   }
 
-  */
+  
